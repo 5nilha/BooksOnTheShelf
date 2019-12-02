@@ -76,7 +76,6 @@ class WelcomeViewController: UIViewController {
         DataServices.shared.signIn(email: email, password: password, register: register) { (result) in
             switch result {
             case .success(let user):
-                print(user.email)
                 self.errorLabel.isHidden = true
                 print("Login succeeded!");
                 self.performSegue(withIdentifier: "goToBookList", sender: nil)
