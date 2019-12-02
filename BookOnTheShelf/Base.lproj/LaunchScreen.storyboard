@@ -16,19 +16,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0ic-Tv-dSD">
-                                <rect key="frame" x="48" y="319" width="318" height="258"/>
+                                <rect key="frame" x="82" y="330.5" width="250" height="235"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kDg-Nm-R5K">
-                                        <rect key="frame" x="0.0" y="0.5" width="318" height="222"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book.circle" catalog="system" highlightedImage="book.circle" translatesAutoresizingMaskIntoConstraints="NO" id="kDg-Nm-R5K">
+                                        <rect key="frame" x="25" y="0.5" width="200" height="199"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="223" id="Kc4-mS-WIS"/>
-                                            <constraint firstAttribute="width" constant="318" id="cou-BS-npf"/>
-                                            <constraint firstAttribute="width" secondItem="kDg-Nm-R5K" secondAttribute="height" multiplier="318:223" id="e4u-9o-wba"/>
+                                            <constraint firstAttribute="height" constant="200" id="ftp-JA-CKV"/>
+                                            <constraint firstAttribute="width" constant="200" id="zE5-Jj-GDr"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Books On The SHelf" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufy-kR-Bg4">
-                                        <rect key="frame" x="34" y="223" width="250" height="35"/>
+                                        <rect key="frame" x="0.0" y="200" width="250" height="35"/>
                                         <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="28"/>
                                         <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         <nil key="highlightedColor"/>
